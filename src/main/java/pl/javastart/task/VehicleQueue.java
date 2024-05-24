@@ -23,7 +23,7 @@ public class VehicleQueue extends LinkedList<Vehicle> {
     }
 
     public void getFromFile(String fileName) {
-        File file = new File("Vehicles.txt");
+        File file = new File(fileName);
         if (file.exists()) {
             try (Scanner fileScan = new Scanner(file)) {
                 while (fileScan.hasNextLine()) {
