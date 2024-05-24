@@ -29,24 +29,4 @@ public class Vehicle {
     public String getInfo() {
         return type + ";" + brand + ";" + vin + ";" + year + ";" + mileage + ";";
     }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getVin() {
-        return vin;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public int getMileage() {
-        return mileage;
-    }
 }
